@@ -1,0 +1,20 @@
+.Text {
+    background-color: rgb(99, 12, 197);
+    border-radius: 10px;
+    width: 500px;
+    height: 300px;
+    text-align: center;
+    font: bold;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    color: rgba(53, 192, 139, 0.897);
+    margin: -550px auto;
+    font-size: 40px;
+    box-shadow: 7px 7px 7px 7px ;
+}
+.parrafo {
+    width: 500px;
+    height: 200px;
+    margin: -30px auto;
+    color: black;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
