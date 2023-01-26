@@ -1,0 +1,103 @@
+body {
+    background-color: black;
+    display: flex;
+    align-items: center;
+}
+
+.Card {
+
+    background-color: rgb(1, 11, 53);
+    width: 400px;
+    height: 500px;
+    position: relative;
+    margin: auto;
+    bottom: -95px;
+    border-radius: 50px;
+    border:10px solid rgb(111, 1, 255);
+    animation-name: Color-rgb, Move_animatión;
+    animation-duration: 5s, 9s;
+    animation-iteration-count: infinite;
+   
+}
+@keyframes  Move_animatión {
+    0%{
+top: 0;
+    }
+    25%{
+        top: 10px;
+    }
+    50%{
+        top: 0px;
+    }
+    75%{
+        top: 50px;
+    }
+    100%{
+        top: 0px;
+    }
+}
+
+@keyframes  Color-rgb {
+    0%{
+border:10px solid rgb(111, 1, 255);
+    }
+    25%{
+        border:10px solid rgb(17, 0, 255);
+    }
+    50%{
+        border:10px solid rgb(51, 2, 70);
+    }
+    75%{
+        border:10px solid rgb(60, 1, 94);
+    }
+    100%{
+        border:10px solid rgb(111, 1, 255);
+    }
+}
+.Card_ {
+
+    
+    width: 350px;
+    height: 450px;
+    position: relative;
+    margin: auto;
+    bottom: -10px;
+}
+#Texto {
+    color: white;
+    font-size: 50px;
+    position: relative;
+    left: 120px;
+    top: -120px;
+    font-family: cursive;
+}
+.Imagenes {
+    width: 100px;
+    height: 85px;
+}
+#Imagen1 {
+    position: relative;
+    left: 265px;
+    rotate: 20deg;
+}
+#Imagen2 {
+    position: relative;
+    rotate: -20deg;
+    left: -115px;
+
+}
+#cuadrado {
+    
+    width: 350px;
+    height: 300px;
+    position: relative;
+    left: 0px;
+    bottom: 100px;
+
+}
+#TEXTO_DEL_DIV {
+    font-size: 30px;
+    color: aliceblue;
+    font-family: cursive;
+    letter-spacing: 1px;
+}
